@@ -6,4 +6,6 @@ import com.login.models.ConnectorRegistration;
 
 public interface ConnectorRegRepo extends JpaRepository<ConnectorRegistration, Integer>{
 
+
+
 }

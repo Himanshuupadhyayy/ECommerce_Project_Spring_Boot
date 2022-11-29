@@ -35,6 +35,7 @@ public class ConnectorRegistration {
 	private String connectorMobileNumber;
 	private String connectorDateOfBirth;
 	private String connectorAlternateMobileNumber;
+	private String connectorRoles;
 	
 	@CreationTimestamp
 	private LocalDateTime regDateTime;

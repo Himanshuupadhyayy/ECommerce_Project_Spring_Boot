@@ -24,14 +24,14 @@ public class ConnectorDocuments {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int documentId;
 	
-	private String connector_PermanentAddress;
-	private String connector_CurrentAddress;
+	private String connectorPermanentAddress;
+	private String connectorCurrentAddress;
 	
-	private String connector_Photo_FileName;	
+	private String connectorPhotoFileName;	
 
-	private String connector_Adhar_FileName;
+	private String connectorAdharFileName;
 
-	private String connector_PanCard_FileName;
+	private String connectorPanCardFileName;
 	
 	@OneToOne(mappedBy = "documents")
 	@JsonIgnore
